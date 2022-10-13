@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#dibimbingOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#dibimbingOleh">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#membimbing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#ditulisOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#ditulisOleh">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#menulis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#membimbing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#membimbing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#menulis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#menulis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Judul -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Judul">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Kelas_Angkatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Kelas_Angkatan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#NIM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#NIM">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#NIP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#NIP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Nama -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Nama">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#CivitasAkademika"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#CivitasAkademika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#CivitasAkademika"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#CivitasAkademika"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#CivitasAkademika"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TulisanIlmiah"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#dibimbingOleh"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#ditulisOleh"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Judul"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TulisanIlmiah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TulisanIlmiah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TulisanIlmiah"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Desty_Rodiah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Desty_Rodiah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+        <NIP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198912212020122011</NIP>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desty Rodiah, M.T.</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Deteksi_Wajah_Menggunakan_Variasi_Segmentasi_dan_Randomized_Hough_Transform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Deteksi_Wajah_Menggunakan_Variasi_Segmentasi_dan_Randomized_Hough_Transform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Desty_Rodiah"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#M_Fachrurrozi"/>
+        <menulis rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Winda_Agusthia"/>
+        <Judul rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deteksi Wajah Menggunakan Variasi Segmentasi dan Randomized Hough Transform (RHT)</Judul>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Diagnosa_Penyakit_Diabetes_Menggunakan_Jaringan_Syaraf_Tiruan_Backpropagation_dan_Algoritma_Levenberg-Marquardt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Diagnosa_Penyakit_Diabetes_Menggunakan_Jaringan_Syaraf_Tiruan_Backpropagation_dan_Algoritma_Levenberg-Marquardt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#TugasAkhir"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Desty_Rodiah"/>
+        <membimbing rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dian_Palupi_Rini"/>
+        <menulis rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Ruben_Jupandi"/>
+        <Judul rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosa Penyakit Diabetes Menggunakan Jaringan Syaraf Tiruan Backpropagation dan Algoritma Levenberg-Marquardt</Judul>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dian_Palupi_Rini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dian_Palupi_Rini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+        <NIP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197802232006042002</NIP>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dian Palupi Rini, M.Kom., Ph.D.</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#M_Fachrurrozi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#M_Fachrurrozi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Dosen"/>
+        <NIP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198005222008121002</NIP>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M. Fachrurrozi, M.T.</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Ruben_Jupandi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Ruben_Jupandi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+        <NIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09021381621116</NIM>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruben Jupandi</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Winda_Agusthia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Winda_Agusthia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/8/untitled-ontology-8#Mahasiswa"/>
+        <NIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09021381419070</NIM>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winda Agusthia</Nama>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
